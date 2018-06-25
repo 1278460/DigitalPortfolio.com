@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  font-family: Arial;
+  background-color: #f1f1f1;
+  width: 100%;
+  background: url("../images/italy.jpg") no-repeat;
+  background-size: 100% 100vh;
+}
+*{
+  margin: 0;
+}
+
+header{
+  padding: 30px 15%;
+  background-color: white;
+}
+
+nav ul{
+  list-style-type: none;
+}
+ nav ul,  a, nav li{
+  text-decoration: none;
+  color: inherit;
+}
+nav li{
+  display: inline;
+}
+
+header li{
+  padding: 5px;
+}
+
+nav{
+  margin: 0 auto;
+}
+
+header .left, header .right{
+  margin-top: -5px;
+}
+
+.active{
+  font-weight: bold;
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+.dropdown{
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  background-color: white;
+  box-shadow: black 0px 5px 8px -6px;
+  padding: 20px 55px;
+  margin: auto;
+  width: 290px;
+  height: auto;
+  margin-left: -39px;
+  position: absolute;
+  z-index: 1;
+}
+.dropdown-content a{
+  padding: 10px 10px 5px 10px;
+  display: inline-block;
+  border-bottom: black solid 2px;
+}
+.dropdown-content a:hover{
+  background-color: #0000001a;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.main{
+  height: 60vh;
+  min-height: 400px;
+  padding-top: 100px;
+  font-size: 1.2em;
+}
+
+.paragraph{
+  margin-top: 100px;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.main2{
+  height:65vh;
+  min-height: 400px;
+  padding-top: 40px;
+  font-size: 1.2em;
+}
+.main2 .paragraph{
+  margin-top: 0;
+}
+
+.main3{
+  min-height: 400px;
+  padding-top: 40px;
+  font-size: 1.2em;
+}
+.main3 .paragraph{
+  margin-top: 0;
+}
+
+.portrait{
+  width: 300px;
+  margin-top: -20px;
+}
+
+
+footer{
+  background-color: white;
+  padding: 20px;
+  bottom: 0;
+}
+
+footer img{
+  width: 80px;
+  height: 80px;
+  padding-right: 6%;
+}
+
+.bulletpoint{
+  text-align: left;
+}
+.bulletpoint li{
+  padding: 10px;
+}
